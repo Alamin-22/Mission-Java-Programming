@@ -1,0 +1,18 @@
+1. Definition of Array
+
+    An array is a fixed size, sequential elements of a same data type.
+
+    *And once the array is created with a fixed size then we can not add any other elements to that array.
+    *And we can create String[] or int[] but we can not create a single array using both data type
+
+    These are the main main limitation of using Array
+
+2. Necessity/Benefits of Using an Array
+
+    * Data organization : It is necessary to store a list of same type of data.
+    * Efficient Access : We can easily get access to its any property by using index like this Array[index].
+    * It allow us to perform loop on it as a result it solves several real world cases where we need to get all the value form a single data collection. for example check grade for every student 
+    * 
+
+
+
