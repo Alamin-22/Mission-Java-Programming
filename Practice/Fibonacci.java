@@ -18,10 +18,11 @@ public class Fibonacci {
         System.out.print("\n Please enter N => ");
         N = scanner.nextInt();
 
-        int[] FibonacciArray = new int[N];
+        int[] FibonacciArray = new int[N]; 
 
         FibonacciArray[0] = 0;
         FibonacciArray[1] = 1;
+        // FibonacciArray[2] = 2;
 
         for (int i = 2; i < N; i++) {
 

@@ -15,7 +15,7 @@ public class SeriesRecursive {
 
         System.out.print("\n Enter N => ");
 
-        N = scanner.nextInt();
+        N = scanner.nextInt(); 
 
         int TotalSum = sumOfSeries(N);
 

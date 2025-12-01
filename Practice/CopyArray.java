@@ -6,6 +6,9 @@ public class CopyArray {
         int[] originalArray = { 10, 20, 30, 40, 50 };
 
         int[] newArray = new int[originalArray.length];
+
+
+        
         for (int i = 0; i < originalArray.length; i++) {
 
             newArray[i] = originalArray[i];
