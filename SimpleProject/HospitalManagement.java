@@ -18,7 +18,7 @@ public class HospitalManagement {
             idCounter++;
             this.name = name;
             this.specialty = specialty;
-            this.fee = fee;
+            setFee(fee);
 
         }
 
@@ -47,10 +47,12 @@ public class HospitalManagement {
         }
 
         public void getFullDetails() {
-            System.out.println("Doc Name is => " + this.name);
-            System.out.println("His ID is => " + this.id);
+            System.out.println("Doc" + this.id + " Name is => " + this.name);
+            System.out.println("Doc ID is => " + this.id);
             System.out.println("His Strength is => " + this.specialty);
             System.out.println("Fee is  => " + this.fee);
+            System.out.println("\n");
+
         }
     }
 
@@ -145,7 +147,7 @@ public class HospitalManagement {
                     String docSpecialty;
                     docSpecialty = scanner.nextLine();
 
-                    System.out.print("Enter Doctor Specialty => ");
+                    System.out.print("Enter Doctor Fee => ");
                     int docFee;
                     docFee = scanner.nextInt();
 
