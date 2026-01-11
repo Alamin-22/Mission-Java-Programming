@@ -22,6 +22,7 @@ interface WebBrowser {
 // The Child Class: SmartPhone
 // It "implements" (agrees to fulfill) ALL these contracts
 class SmartPhone implements Camera, MusicPlayer, WebBrowser {
+    
 
     // 1. Implementing Camera logic
     public void takePhoto() {

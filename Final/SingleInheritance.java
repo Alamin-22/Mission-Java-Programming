@@ -2,8 +2,9 @@ package Final;
 
 // this is parent class
 class Animal {
+
     void eat() {
-        System.out.println("\n Eating....");
+        System.out.println("\n setting....");
     }
 }
 
@@ -13,6 +14,12 @@ class Dog extends Animal {
         System.out.println("\n Barking ....");
     }
 };
+
+// class Dog extends Animal {
+// void bark() {
+// System.out.println("\n Barking ....");
+// }
+// };
 
 public class SingleInheritance {
 

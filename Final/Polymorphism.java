@@ -29,6 +29,9 @@ public class Polymorphism {
         Notification emailNoti = new Email();
         emailNoti.send();
 
+        Notification genericNoti = new Notification();
+        genericNoti.send();
+
     }
 
 }

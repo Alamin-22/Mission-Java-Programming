@@ -1,6 +1,6 @@
 package Final;
 
-// 2. Multilevel Inheritance  (One Parent -> Many Children)
+// 2. Hierarchal Inheritance  (One Parent -> Many Children)
 
 class Animal {
     void eat() {
